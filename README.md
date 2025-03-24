@@ -116,7 +116,7 @@ Aqui, Route 53 e CloudFront entram para garantir a entrega de conteúdo de forma
 ---
 
 ## Demonstação
-[![EsteticaBot demonstração](https://img.youtube.com/vi/-)](https://www.youtube.com/-)
+[![Vídeo do EstéticaBot](https://img.youtube.com/vi/IziquCU4fKU/hqdefault.jpg)](https://www.youtube.com/watch?v=IziquCU4fKU)
 
 
 ---
