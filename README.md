@@ -1,72 +1,106 @@
-# EstéticaBot – Assistente Inteligente para Clínicas Estéticas
+# **Documentação — EsteticaBot**
 
-## 📌 Descrição Geral
-O **EstéticaBot** é um chatbot baseado em IA desenvolvido para clínicas estéticas. Ele permite que clientes realizem cadastros, tirem dúvidas, agendem atendimentos e recebam notificações automáticas sobre suas consultas. O sistema utiliza diversas tecnologias da **Amazon AWS** para garantir escalabilidade, segurança e eficiência.
+| Meta de Lançamento | 07 de abril de 2025 |
+| --- | --- |
+| Épico | Desenvolver um chatbot baseado em IA para clínicas estéticas, utilizando Python e Amazon Bedrock, para fornecer informações sobre serviços, agendamentos e notificações automatizadas. |
+| Status do documento | Em andamento |
+| Equipe de desenvolvedores |  |
+| Scrum Master | Jefferson Cavalcante Vieira |
+| Arquitetos |  |
 
----
+## 🎯 Objetivo
 
-## 🏗️ Arquitetura e Tecnologias Utilizadas
+Este projeto tem como finalidade desenvolver uma solução inovadora de Inteligência Artificial utilizando a linguagem de programação Python, integrando um modelo de linguagem fornecido pelo Amazon Bedrock, com o objetivo de criar um chatbot interativo e altamente eficiente para assistência em clínicas estéticas.
 
-### **1. Interface do Usuário – Site Estático**
-- **AWS EC2**: Hospedagem do site estático.
-- **Amazon S3 + CloudFront** *(Alternativa)*: Para distribuir conteúdo com melhor desempenho.
+## 📊 Indicadores de Sucesso
 
-### **2. Inteligência Artificial para Atendimento – Chatbot IA**
-- **Amazon Lex**: Chatbot com IA para interação com clientes e processamento de linguagem natural (NLP).
-- **Amazon Comprehend** *(Opcional)*: Para análise de sentimentos e identificação de palavras-chave.
-- **Amazon Polly** *(Opcional)*: Conversão de texto em fala para interações por voz.
+### **Indicadores de Sucesso**
 
-### **3. Processamento e Armazenamento dos Dados**
-- **Amazon RDS (MySQL/PostgreSQL)**: Banco de dados para armazenar cadastros e agendamentos.
-- **AWS Lambda**: Funções serverless para processar pedidos do chatbot e registrar reservas no banco de dados.
+O chatbot deve ser capaz de:
 
-### **4. Notificações e Confirmação de Agendamentos**
-- **Amazon SNS**: Envio de SMS e notificações push para confirmação de reservas.
-- **Amazon SES**: Envio de e-mails automáticos com detalhes da consulta.
-- **AWS Lambda + EventBridge**: Agendamento de lembretes automáticos antes da consulta.
+- Atender clientes da clínica estética com informações sobre serviços, preços e horários disponíveis.
+- Permitir agendamentos automáticos de consultas.
+- Enviar notificações para confirmação e lembrete de atendimentos.
+- Responder de forma natural e personalizada utilizando IA generativa do Amazon Bedrock.
+- Garantir um tempo de resposta rápido e uma interface intuitiva.
 
----
+## 📜 Premissas
 
-## 🔄 Fluxo de Funcionamento
-1. O cliente acessa o site e interage com o chatbot para tirar dúvidas e agendar um atendimento.
-2. O **Amazon Lex** interpreta a solicitação e verifica disponibilidade no banco de dados (**RDS**).
-3. O agendamento é registrado automaticamente via **AWS Lambda**.
-4. O cliente recebe uma notificação via **Amazon SNS** (SMS) ou **Amazon SES** (e-mail) com a confirmação.
-5. No dia anterior à consulta, um lembrete automático é enviado solicitando confirmação.
+- O sistema será baseado em uma arquitetura serverless, garantindo escalabilidade e eficiência.
+- Tecnologias AWS serão utilizadas para integração, segurança e armazenamento de dados.
+- O desenvolvimento seguirá boas práticas de segurança, incluindo controle de acesso via IAM.
+- A solução será responsiva e acessível por dispositivos móveis e desktop.
 
----
+## 📑 Requisitos
 
-## ✅ Benefícios da Arquitetura
-- **🔹 Automação Total** – Atendimento 24/7 sem necessidade de intervenção humana.
-- **🔹 Escalabilidade** – Capacidade de crescer conforme a demanda.
-- **🔹 Redução de Custos** – Utilização de serviços serverless evita gastos desnecessários.
-- **🔹 Experiência Melhorada para o Cliente** – Atendimento rápido e notificações automáticas.
+### **Requisitos Funcionais**
 
----
+**Desenvolvimento Back-end**:
 
-## 🚀 Expansões Futuras
-- Integração com **WhatsApp** usando **Twilio + Amazon Lex**.
-- Implementação de **Amazon Pay** para pagamento antecipado das consultas.
-- Análise de feedbacks com **Amazon Comprehend** para aprimorar respostas do chatbot.
+- Implementação do serviço utilizando a linguagem Python e boto3.
 
----
+**Integração com Serviços AWS**:
 
-## 🛠️ Como Executar o Projeto
-1. **Configurar o ambiente AWS:**
-   - Criar uma instância EC2 ou configurar S3 para hospedagem do site.
-   - Criar um chatbot no **Amazon Lex**.
-   - Configurar um banco de dados no **Amazon RDS**.
-   - Criar funções **AWS Lambda** para processar reservas.
-   - Configurar **Amazon SNS/SES** para envio de notificações.
-2. **Deploy do Site:** Fazer upload dos arquivos HTML/CSS no EC2 ou S3.
-3. **Testar o Chatbot:** Utilizar a interface do **Amazon Lex** para verificar as respostas.
-4. **Monitorar e Ajustar:** Configurar logs no **Amazon CloudWatch** para monitoramento do desempenho.
+- Utilização do Amazon S3 para armazenamento e do Amazon Bedrock (Claude 3.5 Sonnet v2) para geração de respostas inteligentes.
+- Uso do Amazon Lex para criação da interface de conversação do chatbot.
+- Utilização do DynamoDB para armazenar informações dos clientes e agendamentos.
+- Notificações automatizadas via Amazon SNS.
 
----
+**Armazenamento e Segurança**:
 
-## 📄 Licença
-Este projeto é um conceito acadêmico desenvolvido para fins educacionais. 
+- Garantia de armazenamento seguro dos dados no DynamoDB e S3.
+- Controle de acesso configurado via AWS IAM.
 
----
+### **Requisitos Não Funcionais**
 
-💡 **Desenvolvido como parte do curso Re/Start 2 da Escola da Nuvem.**
+**Desempenho**:
+
+- O chatbot deve garantir alta responsividade, oferecendo tempos de resposta inferiores a 5 segundos.
+
+**Linguagem utilizada e Bibliotecas:**
+
+- O desenvolvimento será realizado utilizando a linguagem Python com boto3 para interação com AWS.
+
+**Integração com Serviço de Inteligência Artificial**:
+
+- O sistema utilizará o Amazon Bedrock para processar e gerar respostas personalizadas, com base na documentação disponibilizada.
+
+## 📖 Histórias de Usuário
+
+***R1 → Como cliente, quero poder perguntar sobre os serviços disponíveis na clínica para que eu possa entender quais são adequados para mim.***
+
+- **Critérios de aceite:**
+    - O chatbot deve responder de forma natural e precisa sobre os serviços oferecidos.
+    - O sistema deve estar integrado ao Amazon Bedrock para respostas personalizadas.
+
+***R2 → Como cliente, quero poder agendar um serviço diretamente pelo chatbot para facilitar meu atendimento.***
+
+- **Critérios de aceite:**
+    - O chatbot deve validar a disponibilidade de horários no DynamoDB.
+    - O sistema deve registrar o agendamento e enviar uma confirmação via SNS.
+
+***R3 → Como cliente, quero receber lembretes do meu agendamento para evitar atrasos ou esquecimentos.***
+
+- **Critérios de aceite:**
+    - O chatbot deve enviar um lembrete via Amazon SNS um dia antes do agendamento.
+
+## 🧑‍💻🛠️ Tecnologias & Ferramentas
+
+### Serviços Utilizados e suas Funcionalidades
+
+- **IAM:** Garante a segurança da aplicação, controlando quem acessa quais recursos da AWS e com quais permissões.
+- **Route 53:** Direciona o tráfego de internet para a aplicação, atuando como um DNS inteligente, otimizando a rota para o usuário.
+- **CloudFront:** Acelera a entrega de conteúdo estático da aplicação, como imagens e scripts, para os usuários, melhorando a performance.
+- **Lex:** Permite criar interfaces de chatbot, para interagir com os usuários de forma natural e intuitiva.
+- **DynamoDB:** Armazena dados de forma flexível e escalável, para armazenar informações dos usuários e agendamentos.
+- **Bedrock (Claude 3.5 Sonnet v2)**: IA generativa para processamento e geração de respostas personalizadas.
+- **Lambda:** Orquestração do fluxo de interação entre Lex, Bedrock e DynamoDB.
+
+## 📌 Backlog | Melhorias
+
+- Aprimorar a precisão do chatbot na resposta a perguntas complexas.
+- Otimizar o tempo de resposta para menos de 3 segundos.
+- Implementar suporte a múltiplos idiomas.
+- Adicionar análise de interação dos usuários para melhoria contínua do chatbot.
+- Adicionar método de pagamento integrado, utilizando o AWS API Gateway, integrando o Amazon Pay.
+
