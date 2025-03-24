@@ -87,6 +87,20 @@ O EsteticaBot foi projetado inicialmente como um Produto Mínimo Viável (MVP), 
 
 ![Fluxograma da arquitetura](https://i.imgur.com/YmGjPF5.png)
 
+- Usuário (Site): O cliente acessa o site, onde pode interagir com o Amazon Lex.
+Aqui, Route 53 e CloudFront entram para garantir a entrega de conteúdo de forma rápida e a resolução do DNS.
+
+- Amazon Lex: O Amazon Lex recebe a interação do usuário e começa a processar as perguntas, como "Quais serviços a clínica oferece?" ou "Qual o preço de um procedimento?"
+
+- AWS Lambda (Python + Boto3): O AWS Lambda é acionado por Lex e executa as funções backend, como acessar o banco de dados (DynamoDB) ou interagir com outros serviços (como SNS para notificações ou Bedrock para geração de respostas). As funções são escritas em Python, e o Boto3 permite que o código interaja com a AWS (como armazenar agendamentos no DynamoDB).
+
+- Amazon DynamoDB: O DynamoDB armazena dados relacionados aos serviços oferecidos, horários, preços e informações dos agendamentos. Ele pode ser consultado a partir das funções Lambda para verificar a disponibilidade de horários e criar ou atualizar os agendamentos.
+
+- Amazon Bedrock: O Bedrock é usado para personalizar a resposta ao usuário com base nas perguntas feitas, usando modelos pré-treinados para gerar respostas mais sofisticadas.
+
+- Amazon SNS: Após a interação e agendamento, o SNS envia notificações para os usuários com confirmações e lembretes de agendamento.
+
+- IAM: O IAM gerencia as permissões e acessos entre os serviços AWS, garantindo que as funções Lambda tenham acesso ao DynamoDB, SNS, Bedrock, etc.
 
 ### Evoluções Planejadas
 - Aprimorar a precisão do chatbot na resposta a perguntas complexas.
