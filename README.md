@@ -4,9 +4,9 @@
 
 ## Equipe
 - **Scrum Master:** [Jefferson Cavalcante Vieira](https://www.linkedin.com/in/jeff-cav22/)
-- **Líder Técnica:** [-](-)
-- **Desenvolvedores:** [-](-)
-- **Arquitetos:** [-](-)
+- **Líder Técnica:** [Amanda Letícia Pereira Medeiros](https://www.linkedin.com/in/iamandamedeiros/)
+- **Desenvolvedores:** [Gustavo Soares](https://www.linkedin.com/in/gustavo-soares-16310b1a2/), [Evandro Luiz Pagano Buxini](https://www.linkedin.com/in/evandro-pagano-buxini-engenheiro-de-computacao-em-formacao-em-transicao/), [Alana Mirella Cunha Felix](https://www.linkedin.com/in/alana-felix/)
+- **Arquitetos:** [Jefferson Cavalcante Vieira](https://www.linkedin.com/in/jeff-cav22/), [Nathan da Silva](https://www.linkedin.com/in/nathan-silva13/), [Rudolfo Wayli Nassif Maia](https://www.linkedin.com/in/rudolfomaia/)
 
 ---
 
@@ -85,7 +85,7 @@ O EsteticaBot foi projetado inicialmente como um Produto Mínimo Viável (MVP), 
 - Amazon Bedrock
 - DynamoDB
 
-![Fluxograma da arquitetura](https://i.imgur.com/a/fXzX2P0.png)
+![Fluxograma da arquitetura](https://i.imgur.com/YmGjPF5.png)
 
 
 ### Evoluções Planejadas
