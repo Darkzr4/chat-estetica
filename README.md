@@ -51,11 +51,11 @@ O EsteticaBot é um chatbot capaz de:
 
 ### Funcionais
 - **Implementação do serviço utilizando a linguagem Python e boto3.**
-- **Utilização do Amazon S3 para armazenamento e do Amazon Bedrock (Claude 3.5 Sonnet v2) para geração de respostas inteligentes.**
+- **Utilização do Amazon Bedrock (Claude 3.5 Sonnet v2) para geração de respostas inteligentes.**
 - **Uso do Amazon Lex para criação da interface de conversação do chatbot.**
 - **Utilização do DynamoDB para armazenar informações dos clientes e agendamentos.**
 - **Notificações automatizadas via Amazon SNS.**
-- **Garantia de armazenamento seguro dos dados no DynamoDB e S3.**
+- **Garantia de armazenamento seguro dos dados no DynamoDB.**
 - **Controle de acesso configurado via AWS IAM.**
 
 ### Não Funcionais
@@ -72,7 +72,7 @@ O EsteticaBot é um chatbot capaz de:
 - **CloudFront:** Acelera a entrega de conteúdo estático da aplicação, como imagens e scripts, para os usuários, melhorando a performance.
 - **Lex:** Permite criar interfaces de chatbot, para interagir com os usuários de forma natural e intuitiva.
 - **DynamoDB:** Armazena dados de forma flexível e escalável, para armazenar informações dos usuários e agendamentos.
-- **Bedrock (Claude 3.5 Sonnet v2):** Amazon Bedrock (Titan Text G1 - Premier)
+- **Bedrock (Claude 3.5 Sonnet v2):** Modelo utilizado para personalizar a resposta ao usuário.
 - **Lambda:** Orquestração do fluxo de interação entre Lex, Bedrock e DynamoDB.
 - **Boto3:** Biblioteca Python para interação com AWS
 
