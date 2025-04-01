@@ -176,7 +176,7 @@ Defesa contra DDoS para garantir disponibilidade contínua.
 [
 ![Vídeo do EstéticaBot](https://img.youtube.com/vi/IziquCU4fKU/hqdefault.jpg)](https://www.youtube.com/watch?v=IziquCU4fKU)
 
-## 👥 Equipe
+## 👥 Contribuidores
 
 ### **Scrum Masters:**  
 - Jefferson Cavalcante Vieira  
@@ -196,66 +196,64 @@ Defesa contra DDoS para garantir disponibilidade contínua.
 - Nathan Silva  
 - Rudolfo Wayli Nassif Maia  
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Darkzr4" title="GitHub">
-        <img src="https://avatars.githubusercontent.com/u/97708635?v=4" width="100px;" alt="Foto Jefferson"/><br>
-        <sub>
-          <b>Jefferson Cavalcante</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/alanamcfelix" title="GitHub">
-        <img src="https://avatars.githubusercontent.com/u/163422639?v=4" width="100px;" alt="Foto Alana"/><br>
-        <sub>
-          <b>Alana Mirella</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/iamandamedeiros" title="GitHub">
-        <img src="https://avatars.githubusercontent.com/u/149709202?v=4" width="100px;" alt="Foto Amanda"/><br>
-        <sub>
-          <b>Amanda Medeiros</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/EvandroPBuxini" title="GitHub">
-        <img src="https://avatars.githubusercontent.com/u/189387247?v=4" width="100px;" alt="Foto Evandro"/><br>
-        <sub>
-          <b>Evandro Buxini</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/gustavo-soares-16310b1a2/" title="LinkedIn">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQG1w_bFxaoyTg/profile-displayphoto-shrink_800_800/B4DZRgDmYoGkAc-/0/1736778345189?e=1749081600&v=beta&t=6AdVuBL9qOJgMcpvb4qTsOBO3nyFXc0hjHuAzFkVAs4" width="100px;" alt="Foto Gustavo"/><br>
-        <sub>
-          <b>Gustavo Soares</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/nathan-silva13/" title="LinkedIn">
-        <img src="https://media.licdn.com/dms/image/v2/D5603AQFqzbWPOmTUYw/profile-displayphoto-shrink_400_400/B56ZS9xmDNGUAk-/0/1738350682921?e=1749081600&v=beta&t=HAhvgSYHFwwMmRHklKQCJF9h9lSAsoW1xmJ7YEq16BM" width="100px;" alt="Foto Nathan"/><br>
-        <sub>
-          <b>Nathan Silva</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/rudolfomaia/" title="LinkedIn">
-        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFy8ln7QMJJmg/profile-displayphoto-shrink_800_800/B4DZRgMnNAHcAg-/0/1736780707077?e=1749081600&v=beta&t=q7vfwWvjg7P9mDqETOxEgmgD0UeZw1qkTfpqPWSkBtI" width="100px;" alt="Foto Rudolfo"/><br>
-        <sub>
-          <b>Rudolfo Maia</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+  <div style="text-align: center; width: 120px;">
+    <a href="https://github.com/Darkzr4" title="GitHub">
+      <img src="https://avatars.githubusercontent.com/u/97708635?v=4" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Jefferson"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Jefferson Cavalcante</b>
+      </sub>
+    </a>
+  </div>
+  <div style="text-align: center; width: 120px;">
+    <a href="https://github.com/alanamcfelix" title="GitHub">
+      <img src="https://avatars.githubusercontent.com/u/163422639?v=4" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Alana"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Alana Mirella</b>
+      </sub>
+    </a>
+  </div>
+  <div style="text-align: center; width: 120px;">
+    <a href="https://github.com/iamandamedeiros" title="GitHub">
+      <img src="https://avatars.githubusercontent.com/u/149709202?v=4" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Amanda"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Amanda Medeiros</b>
+      </sub>
+    </a>
+  </div>
+  <div style="text-align: center; width: 120px;">
+    <a href="https://github.com/EvandroPBuxini" title="GitHub">
+      <img src="https://avatars.githubusercontent.com/u/189387247?v=4" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Evandro"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Evandro Buxini</b>
+      </sub>
+    </a>
+  </div>
+  <div style="text-align: center; width: 120px;">
+    <a href="https://www.linkedin.com/in/gustavo-soares-16310b1a2/" title="LinkedIn">
+      <img src="https://media.licdn.com/dms/image/v2/D4D03AQG1w_bFxaoyTg/profile-displayphoto-shrink_800_800/B4DZRgDmYoGkAc-/0/1736778345189?e=1749081600&v=beta&t=6AdVuBL9qOJgMcpvb4qTsOBO3nyFXc0hjHuAzFkVAs4" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Gustavo"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Gustavo Soares</b>
+      </sub>
+    </a>
+  </div>
+  <div style="text-align: center; width: 120px;">
+    <a href="https://www.linkedin.com/in/nathan-silva13/" title="LinkedIn">
+      <img src="https://media.licdn.com/dms/image/v2/D5603AQFqzbWPOmTUYw/profile-displayphoto-shrink_400_400/B56ZS9xmDNGUAk-/0/1738350682921?e=1749081600&v=beta&t=HAhvgSYHFwwMmRHklKQCJF9h9lSAsoW1xmJ7YEq16BM" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Nathan"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Nathan Silva</b>
+      </sub>
+    </a>
+  </div>
+  <div style="text-align: center; width: 120px;">
+    <a href="https://www.linkedin.com/in/rudolfomaia/" title="LinkedIn">
+      <img src="https://media.licdn.com/dms/image/v2/D4D03AQFy8ln7QMJJmg/profile-displayphoto-shrink_800_800/B4DZRgMnNAHcAg-/0/1736780707077?e=1749081600&v=beta&t=q7vfwWvjg7P9mDqETOxEgmgD0UeZw1qkTfpqPWSkBtI" style="width: 100px; height: 100px; object-fit: cover; border-radius: 50%;" alt="Foto Rudolfo"/><br>
+      <sub style="display: block; margin-top: 8px;">
+        <b>Rudolfo Maia</b>
+      </sub>
+    </a>
+  </div>
+</div>
 
 ## ✅ Conclusão
 
